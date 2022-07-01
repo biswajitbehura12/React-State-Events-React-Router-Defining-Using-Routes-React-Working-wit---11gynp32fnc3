@@ -1,4 +1,5 @@
-import React from 'react';
+import React,{Component,useState} from "react";
+
 
  const Home = () => {
     return (
