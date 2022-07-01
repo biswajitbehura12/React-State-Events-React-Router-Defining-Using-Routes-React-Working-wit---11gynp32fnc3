@@ -7,7 +7,13 @@ export const AppRoutes = () => {
         <Router>
         <Routes>
         <Route exact path='/' element={
-          <Index />
+          <Index/>
+        } />
+ <Route exact path='/home' element={
+          <Home/>
+        } />
+      <Route exact path='/notfound' element={
+          </>
         } />
         </Routes>
         </Router>
