@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import Home from "./pages/Home";
 export const AppRoutes = () => {
     return (
         
@@ -13,7 +13,7 @@ export const AppRoutes = () => {
           <Home/>
         } />
       <Route exact path='/notfound' element={
-          </>
+          <NotFound/>
         } />
         </Routes>
         </Router>
