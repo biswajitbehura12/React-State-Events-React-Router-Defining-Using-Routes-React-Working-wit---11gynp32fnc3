@@ -1,7 +1,15 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 export const AppRoutes = () => {
     return (
-<div> jnkwejssippppppppppppppppppppppppppppppppppppppppppppppppppppps</div>
+        
+        <Router>
+        <Routes>
+        <Route exact path='/' element={
+          <Index />
+        } />
+        </Routes>
+        </Router>
     )
 }
